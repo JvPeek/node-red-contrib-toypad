@@ -11,6 +11,7 @@
     "url": "git+https://github.com/JvPeek/node-red-contrib-toypad.git"
   },
   "keywords": [
+    "node-red",
     "lego",
     "dimensions",
     "toypad",
