@@ -1,16 +1,20 @@
 <script type="text/javascript">
     RED.nodes.registerType('toypad-tag-event', {
         category: 'Toypad',
-        color: '#fdd835',
+        color: '#DA291C',
         defaults: {},
         inputs: 0,
         outputs: 2,
-        icon: 'node.png',
+        icon: 'toypad.svg',
         label: function () {
             return 'Toypad Tag Event';
         }
     });
 </script>
 
-<!-- This node doesn’t need any additional configuration -->
-<p>This node outputs tag event data when a tag is added or removed.</p>
+<!-- Configuration UI -->
+<script type="text/html" data-template-name="toypad-tag-event">
+    <!-- This node doesn’t need any additional configuration -->
+    <p>This node outputs tag event data when a tag is added or removed.</p>
+
+</script>
